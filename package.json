@@ -1,0 +1,30 @@
+{
+  "name": "covidbot",
+  "version": "1.0.0",
+  "description": "My personal template for NodeJS Telegram Bots",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app/index.js",
+    "start": "node app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurrrung/telegram-bot-template-nodejs.git"
+  },
+  "keywords": [
+    "Covid",
+    "Corona"
+  ],
+  "author": "Rahul Gurung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gurrrung/telegram-bot-template-nodejs/issues"
+  },
+  "homepage": "https://github.com/gurrrung/telegram-bot-template-nodejs#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-telegram-bot-api": "^0.40.0",
+    "nodemon": "^2.0.3"
+  }
+}
